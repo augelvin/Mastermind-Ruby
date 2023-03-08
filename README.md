@@ -1,19 +1,13 @@
-# Ruby on Replit
+# Mastermind on Ruby
+Use OOP to create the mastermind game.
 
-This is a template to get you started with Ruby on Replit. It's ready to go so you can just hit run and start coding!
+Choose to be a code MAKER ot code BREAKER.
 
-## Running the repl
+As a code maker, you will make a 4 digit code from numbers 1-6. The computer will try to break the code in 8 tries.
 
-Simply hit run! You can edit the run command from the `.replit` file.
+As a code breaker, the computer will make a 4 digit code from numbers 1-6. You will try to break the code in 8 tries.
+After every tries, you will recieve a feedback:
+- If you have a correct number in the right position, you will get an 'O'. 
+- If you have a correct number but in the wrong position, you will get an 'X'. 
 
-## Installing packages
-
-To add packages to your repl, we recommend using the Replit packager interface in the left sidebar or using `bundle install` in the shell. Check out the [Bundle docs here](https://bundler.io/v2.3/#getting-started).
-
-**Warning: Avoid using `gem install` to add packages.**
-
-Beacuse Ruby repls use [Bundle](https://bundler.io/) under the hood to provide a consistent environment that tracks and installs the exact gems and versions needed, we recommend using `bundle install` instead of `gem install`, which may not work as expected.
-
-## Help
-
-If you need help you might be able to find an answer on our [docs](https://docs.replit.com) page. Feel free to report bugs and give us feedback [here](https://replit.com/support).
+Good luck!
